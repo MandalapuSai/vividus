@@ -1,0 +1,45 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.category-card {
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.brand-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.icon {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+
+/* <div class="col-md-6 col-lg-3">
+          <div class="card category-card border-primary">
+            <div class="card-body">
+              <h5 class="card-title text-primary"><i class="bi bi-heart-pulse-fill icon"></i>Cardiac & Diabetic</h5>
+               <ul class="list-unstyled mb-0">
+                <li>Glimedus</li>
+                <li>Sitaphil</li>
+                <li>Dapadus</li>
+                <li>Glimipar</li>
+                <li>Teneligliptin</li>
+              </ul>
+            </div>
+          </div>
+        </div> */

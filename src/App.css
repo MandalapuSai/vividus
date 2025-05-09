@@ -1,0 +1,144 @@
+p {
+  font-size: medium;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+.category-card {
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.brand-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.icon {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+h5 {
+  cursor: pointer;
+  margin: 0px !important;
+}
+
+h6 {
+  margin: 0px !important;
+}
+
+
+.blink-hover {
+  animation: blink 1s infinite;
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+@keyframes blink {
+
+  0%,
+  100% {
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.6);
+  }
+
+  50% {
+    box-shadow: 0 0 20px rgba(0, 123, 255, 0.9);
+  }
+}
+
+
+
+
+
+.blink-hover1 {
+  animation: blink1 1s infinite;
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+@keyframes blink1 {
+
+  0%,
+  100% {
+    box-shadow: 0 0 10px rgb(25 135 84);
+  }
+
+  50% {
+    box-shadow: 0 0 20px rgb(25 135 84);
+  }
+}
+
+
+
+
+.blink-hover2 {
+  animation: blink2 1s infinite;
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+@keyframes blink2 {
+
+  0%,
+  100% {
+    box-shadow: 0 0 10px rgb(255 193 7);
+  }
+
+  50% {
+    box-shadow: 0 0 20px rgb(255 193 7);
+  }
+}
+
+
+
+
+.blink-hover3 {
+  animation: blink3 1s infinite;
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+@keyframes blink3 {
+
+  0%,
+  100% {
+    box-shadow: 0 0 10px rgb(220 53 69);
+  }
+
+  50% {
+    box-shadow: 0 0 20px rgb(220 53 69);
+  }
+}
+
+
+.card-animation {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: showCard 0.5s ease-out forwards;
+}
+
+@keyframes showCard {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.nav-item:hover{
+  font-weight: bold;
+}
